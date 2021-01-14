@@ -1,0 +1,66 @@
+λ 42
+42
+:: Num a => a
+λ 6 * 7
+42
+:: Num a => a
+λ (3+4)*6
+42
+:: Num a => a
+λ 3+(4*6) == 3+4*6
+True
+:: Bool
+λ ((6))*(((7)))
+42
+:: Num a => a
+λ 4+-3
+Not in scope: ‘+-’
+Perhaps you meant one of these:
+‘-’ (imported from Prelude), ‘++’ (imported from Prelude),
+‘+’ (imported from Prelude)
+λ 4 + -3
+Precedence parsing error
+cannot mix ‘+’ [infixl 6] and prefix `-' [infixl 6] in the same infix expression
+λ 4+ -3
+Precedence parsing error
+cannot mix ‘+’ [infixl 6] and prefix `-' [infixl 6] in the same infix expression
+λ 4+(-3)
+1
+:: Num a => a
+
+
+λ abs 7
+7
+:: Num a => a
+λ abs (-3)
+3
+:: Num a => a
+λ min 3 8
+3
+:: (Num a, Ord a) => a
+λ sqrt 9+7
+10.0
+:: Floating a => a
+λ sqrt (9+7)
+4.0
+:: Floating a => a
+λ min (max 3 4) 5
+4
+:: (Num a, Ord a) => a
+
+
+λ answer = 42
+42
+:: Num a => a
+λ answer
+42
+:: Num a => a
+λ double = answer * 2
+84
+:: Num a => a
+λ answer = answer * 2 -- you cannot define an expression in terms of itself
+Evaluation killed!
+λ answer = 43
+Conflicting definitions for ‘answer’
+Bound at: <interactive>:1:6-11
+<interactive>:1:20-25
