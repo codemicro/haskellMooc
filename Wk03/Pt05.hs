@@ -1,3 +1,5 @@
+-- Wk03x05 - Function Composition
+
 x = map ((+6).(*3)) [1..20]
 y = foldl (\a c -> c:a) "" "hello world"
 z = sum' [1..20]

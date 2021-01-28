@@ -1,3 +1,5 @@
+-- Wk02x10 - How to run GHCi
+
 -- This file can be loaded into GHCi using `:load Pt10.hs`
 
 -- simple factorial function

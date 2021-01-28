@@ -1,3 +1,5 @@
+# Wk03x03a - Functional maps and folds versus imperative loops
+
 # maps
 
 def f(x): 

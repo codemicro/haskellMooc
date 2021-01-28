@@ -1,4 +1,4 @@
--- starman
+-- Wk02x11 - The guessing game, Starman
 
 -- function check takes a secret word, the displayed word and a character as inputted by the player and returns
 -- a boolean that represents if the guess was correct in finding a letter and the string to display next time round

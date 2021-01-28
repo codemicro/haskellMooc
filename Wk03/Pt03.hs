@@ -1,3 +1,5 @@
+-- Wk03x03a - Functional maps and folds versus imperative loops
+
 -- maps
 f x = x * (x+1)
 
