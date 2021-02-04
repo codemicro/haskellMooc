@@ -1,0 +1,25 @@
+name: Build indexes
+
+on:
+  push:
+    branches: [ master ]
+    
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        ref: ${{ github.ref }}
+        fetch-depth: 0
+    - uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+    - run: python .github/genindexes.py
+    - name: Git commit and push
+      run: |
+        git config user.email 'tom@tdpain.net'
+        git config user.name 'Tom'
+        git add .
+        git commit -m 'Update indexes'
+        git push origin HEAD:${{ github.ref }}
