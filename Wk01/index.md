@@ -1,12 +1,12 @@
 # Wk01
 
-* [Wk01x01 - Basic elements by example](./Pt02.md/#wk01x01--basic-elements-by-example)
+* [Wk01x02 - Basic elements by example](./Pt02.md/#wk01x02--basic-elements-by-example)
   * [Functions](./Pt02.md/#functions)
   * [Types](./Pt02.md/#types)
   * [Lists](./Pt02.md/#lists)
   * [Anonymous functions](./Pt02.md/#anonymous-functions)
   * [Higher-order functions](./Pt02.md/#higherorder-functions)
-* [Wk01x02 - Expressions and equations](./Pt03.md/#wk01x02--expressions-and-equations)
+* [Wk01x03 - Expressions and equations](./Pt03.md/#wk01x03--expressions-and-equations)
   * [Expressions](./Pt03.md/#expressions)
     * [Integer expressions](./Pt03.md/#integer-expressions)
     * [Function applications](./Pt03.md/#function-applications)
