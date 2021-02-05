@@ -98,3 +98,7 @@
   * [Wk04x03 - Guards](../Wk04/Pt03.md/#wk04x03--guards)
     * [Side by side comparison](../Wk04/Pt03.md/#side-by-side-comparison)
     * [Case statements and pattern matching](../Wk04/Pt03.md/#case-statements-and-pattern-matching)
+  * [Wk04x04 - `Maybe`](../Wk04/Pt04.md/#wk04x04--maybe)
+    * [The definition of `Maybe`](../Wk04/Pt04.md/#the-definition-of-maybe)
+    * [Returning a `Maybe`](../Wk04/Pt04.md/#returning-a-maybe)
+    * [Dealing with `Maybe`s](../Wk04/Pt04.md/#dealing-with-maybes)
