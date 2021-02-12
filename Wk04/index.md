@@ -23,3 +23,5 @@
   * [Parsing alternative strings](./Pt06.md/#parsing-alternative-strings)
   * [Stuff included with Parsec](./Pt06.md/#stuff-included-with-parsec)
   * [Parsing a variable name](./Pt06.md/#parsing-a-variable-name)
+* [Wk04x11 - Using QuickCheck](./Pt11.md/#wk04x11--using-quickcheck)
+  * [An example test](./Pt11.md/#an-example-test)

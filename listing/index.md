@@ -114,3 +114,5 @@
     * [Parsing alternative strings](../Wk04/Pt06.md/#parsing-alternative-strings)
     * [Stuff included with Parsec](../Wk04/Pt06.md/#stuff-included-with-parsec)
     * [Parsing a variable name](../Wk04/Pt06.md/#parsing-a-variable-name)
+  * [Wk04x11 - Using QuickCheck](../Wk04/Pt11.md/#wk04x11--using-quickcheck)
+    * [An example test](../Wk04/Pt11.md/#an-example-test)
