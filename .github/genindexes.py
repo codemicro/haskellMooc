@@ -43,7 +43,7 @@ for root in info:
             o += (level * " ") + "* [" + txt + "](" + url + ")"
             o += "\n"
 
-    with open(os.path.join(root, "index.md"), "w") as f:
+    with open(os.path.join(root, "index.md"), "w", encoding="utf8", errors="ignore") as f:
         f.write(o)
 
 mo = "# Haskell MOOC\n\n"
@@ -66,5 +66,5 @@ for root in info:
             mo += (level * " ") + "* [" + txt + "](" + url + ")"
             mo += "\n"
 
-with open(os.path.join("listing", "index.md"), "w") as f:
+with open(os.path.join("listing", "index.md"), "w", encoding="utf8", errors="ignore") as f:
         f.write(mo)
