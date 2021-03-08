@@ -151,3 +151,7 @@
         * [Hierachy](../Wk06/Pt03.md/#hierachy)
       * [The `Show` class](../Wk06/Pt03.md/#the-show-class)
       * [Other built-in type classes](../Wk06/Pt03.md/#other-builtin-type-classes)
+  * [Wk06x05 - Introduction to the Lambda calculus](../Wk06/Pt05.md/#wk06x05--introduction-to-the-lambda-calculus)
+  * [Wk06x10 - Monads](../Wk06/Pt10.md/#wk06x10--monads)
+    * [Parts of a monad](../Wk06/Pt10.md/#parts-of-a-monad)
+    * [Definition of a monad](../Wk06/Pt10.md/#definition-of-a-monad)
